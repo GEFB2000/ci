@@ -12,6 +12,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: |
-        cd test/unit
-        python -m uttest test_utils
+          cd test/unit
+          python -m uttest test_utils
         
